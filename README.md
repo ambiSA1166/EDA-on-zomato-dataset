@@ -2,22 +2,33 @@
 
 ## 📊 Overview
 
-This project performs Exploratory Data Analysis (EDA) on the Zomato dataset to understand restaurant trends, cuisines, ratings, and online delivery patterns.
+This project performs Exploratory Data Analysis (EDA) on the Zomato dataset to understand restaurant trends, cuisines, ratings, and delivery patterns.
+
+---
+
+## ❓ Questions Solved
+
+* Pie Chart: Top 3 countries using Zomato
+* Find countries with **0 ratings**
+* Identify **currency used by each country**
+* Find countries with **online delivery option**
+* Pie chart for **top 5 cities distribution**
+* Find **top 10 cuisines**
 
 ---
 
 ## 🔍 Key Takeaways
 
 * Most data is from **India**, followed by USA and UK
-* **North Indian, Chinese, Fast Food** are the most popular cuisines
-* Most ratings are between **2.5 to 3.4 (average range)**
+* **North Indian, Chinese, Fast Food** are most popular
+* Most ratings are **2.5 to 3.4 (average)**
 * Many restaurants are **Not Rated**, especially in India
 * Maximum **0 ratings** are from Indian users
-* **Online delivery** is mainly available in India and UAE
+* **Online delivery** is mainly in India and UAE
 
 ---
 
-## 📈 Tools & Technologies
+## 📈 Tools Used
 
 * Python
 * Pandas
@@ -29,16 +40,18 @@ This project performs Exploratory Data Analysis (EDA) on the Zomato dataset to u
 
 ## 📂 Project Files
 
-* `EDA.ipynb`→ Main analysis notebook
-* Dataset file - `zomato.csv`,`Country-Code.xlsx`
+* `EDA.ipynb` → Main analysis notebook
+* Dataset files:
+
+  * `zomato.csv`
+  * `Country-Code.xlsx`
 
 ---
 
 ## 📌 Future Scope
 
-* Build a **rating prediction model**
-* Create a **restaurant recommendation system**
-* Perform deeper analysis on cost vs rating
+* Rating prediction model
+* Recommendation system
 
 ---
 
@@ -51,4 +64,3 @@ Zomato Dataset (Kaggle)
 ## 👤 Author
 
 Ambika Gupta
-
